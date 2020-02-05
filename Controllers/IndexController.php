@@ -1,5 +1,5 @@
 <?php
-require_once 'Modal/IndexModel.php';
+require_once 'Models/IndexModel.php';
 
 class IndexController
 {
@@ -10,11 +10,11 @@ class IndexController
     }
 
     public function home(){
-        require_once 'View/index-view.php';
+        require_once 'Views/index-view.php';
     }
 
     public function  newFile(){
-        $uploadfile = 'file/'.$_FILES['data']['name'];
+        $uploadfile = 'files/'.$_FILES['data']['name'];
         $result = $this->model->parsingCsv($uploadfile);
         $cheak = $this->model->cheakCsv($result[0]);
         if($cheak){
@@ -24,7 +24,7 @@ class IndexController
             $headel_link= "Location: ".$actual_link."/result.php";
             header($headel_link);
         }else{
-            require_once 'View/error-view.php';
+            require_once 'Views/error-view.php';
         }
     }
 

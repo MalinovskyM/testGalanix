@@ -24,7 +24,6 @@ class IndexModel
             echo 'Некоторая отладочная информация:';
             print_r($_FILES);
             print "</pre>";
-
         }
         return $result;
     }
@@ -70,6 +69,12 @@ class IndexModel
 
     private function insert($arr){
         $sql = "INSERT INTO `test`(`UID`, `Name`, `Age`, `Email`, `Phone`, `Gender`) VALUES ('".$arr[0]."','".$arr[1]."','".$arr[2]."','".$arr[3]."','".$arr[4]."','".$arr[5]."')";
+        $req = mysqli_query(linksql(),$sql);
+        return true;
+    }
+
+    public function clearAll(){
+        $sql = "DELETE FROM `test`";
         $req = mysqli_query(linksql(),$sql);
         return true;
     }

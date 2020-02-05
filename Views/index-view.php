@@ -21,14 +21,32 @@
                         <h4 class="card-title">Add Csv</h4>
                     </div>
                     <div class="card-body">
-                        <form enctype="multipart/form-data" method="post" action="../index.php">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <input type="file" name="data">
+                        <div class="form-group">
+                            <form enctype="multipart/form-data" method="post" action="../index.php">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <div class="col-md-3">
+                                            <input type="file" name="data" required>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <button type="submit" name="submit" class="btn btn-success btn-round fileinput-exists " >Создать</button>
-                        </form>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <button type="submit" name="submit" class="btn btn-success btn-round fileinput-exists " >Import</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row">
+                            <form enctype="multipart/form-data" method="post" action="../result.php">
+                                <div class="form-group">
+                                    <button type="submit" name="clearAll" class="btn btn-success btn-round fileinput-exists " >Clear all records</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row">
+                            <button type="submit" name="submit" class="btn btn-success btn-round fileinput-exists " ><a href="/result.php">View results</a></button>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -18,9 +18,12 @@
                         <div class="card-icon">
                             <i class="material-icons"></i>
                         </div>
-                        <h4 class="card-title">Add Csv</h4>
+                        <h4 class="card-title">Result Data</h4>
                     </div>
                     <div class="card-body">
+<?php
+if ($allData->num_rows != 0){
+?>
                         <table class="table">
                             <thead>
                             <tr>
@@ -39,18 +42,31 @@ foreach ($allData as $v){
     echo "<tr>";
         echo "
                 <th scope='row'>".$v['id']."</th>
-                <td>".$v['UID']."k</td>
-                <td>".$v['Name']."k</td>
-                <td>".$v['Age']."k</td>
-                <td>".$v['Email']."k</td>
-                <td>".$v['Phone']."k</td>
-                <td>".$v['Gender']."k</td>
+                <td>".$v['UID']."</td>
+                <td>".$v['Name']."</td>
+                <td>".$v['Age']."</td>
+                <td>".$v['Email']."</td>
+                <td>".$v['Phone']."</td>
+                <td>".$v['Gender']."</td>
         ";
     echo "</tr>";
 }
 ?>
                             </tbody>
                         </table>
+    <?php
+}else{
+    echo "
+    <h1>No Data</h1>
+    ";
+}
+
+?>
+                        <div class="row">
+                            <div class="form-group">
+                                <button type="submit" name="submit" class="btn btn-success btn-round fileinput-exists " ><a href="/index.php">Import data</a></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

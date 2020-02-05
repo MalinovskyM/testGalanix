@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf102563-f021-4db8-9a75-136abea14223" name="Default Changelist" comment="" />
+    <list default="true" id="bf102563-f021-4db8-9a75-136abea14223" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/localhost.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/localhost.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/ResultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ResultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Healper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modal/IndexModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/IndexModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/error-view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/error-view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/index-view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index-view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/result-view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/result-view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/users-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/users-1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/users-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/users-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/users-3-wrong.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/users-3-wrong.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.php" beforeDir="false" afterPath="$PROJECT_DIR$/result.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -19,7 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XLGxA7ziRVybkBIfxApToKkxKC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -52,7 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580818204779</updated>
-      <workItem from="1580818205959" duration="12737000" />
+      <workItem from="1580818205959" duration="13373000" />
+      <workItem from="1580883744632" duration="3131000" />
     </task>
     <servers />
   </component>

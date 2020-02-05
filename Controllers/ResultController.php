@@ -1,5 +1,5 @@
 <?php
-require_once 'Modal/IndexModel.php';
+require_once 'Models/IndexModel.php';
 
 class ResultController
 {
@@ -10,6 +10,11 @@ class ResultController
     }
     public function getAll(){
         $allData = $this->model->get();
-        require_once 'View/result-view.php';
+        require_once 'Views/result-view.php';
+    }
+
+    public function clearAll(){
+        $this->model->clearAll();
+        require_once 'Views/result-view.php';
     }
 }
